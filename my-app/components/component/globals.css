@@ -1,0 +1,83 @@
+/* styles/global.css */
+
+/* styles/global.css */
+
+@font-face {
+    font-family: 'Hana2-Bold';
+    src: url('/fonts/Hana2-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Hana2-CM';
+    src: url('/fonts/Hana2-CM.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Hana2-Heavy';
+    src: url('/fonts/Hana2-Heavy.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Hana2-Light';
+    src: url('/fonts/Hana2-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Hana2-Medium';
+    src: url('/fonts/Hana2-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Hana2-Regular';
+    src: url('/fonts/Hana2-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/Inter.ttc') format('truetype'); /* 파일 경로는 실제 경로에 맞게 수정하세요 */
+}
+
+body {
+    font-family: 'Hana2-Regular', sans-serif; /* 기본 글꼴 지정 */
+}
+
+/* 클래스로 각 폰트를 사용할 수 있도록 정의 */
+.font-hana2-bold {
+    font-family: 'Hana2-Bold', sans-serif;
+}
+
+.font-hana2-cm {
+    font-family: 'Hana2-CM', sans-serif;
+}
+
+.font-hana2-heavy {
+    font-family: 'Hana2-Heavy', sans-serif;
+}
+
+.font-hana2-light {
+    font-family: 'Hana2-Light', sans-serif;
+}
+
+.font-hana2-medium {
+    font-family: 'Hana2-Medium', sans-serif;
+}
+
+.inter {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal; /* 일반체 */
+}
+  
